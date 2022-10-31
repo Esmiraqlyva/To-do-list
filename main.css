@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(241, 241, 241) !important;
+    font-family: Lexend;
+  }
+  
+  .app-container {
+    width: 700px;
+    min-height: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .app-content {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    border-top: 20px solid #FFDC40;
+  }
+  .app-content ul {
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  .app-content ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+  }
+  .app-content ul li i {
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #eee;
+  }
+  .app-content ul li i:hover {
+    background-color: #833AE0;
+    color: #fff;
+  }
+  
+  .new-todo-form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .new-todo-form input {
+    border: 1px solid #eee;
+    border-radius: 50px;
+    padding: 10px 30px;
+    outline: 0;
+    width: 100%;
+    font-family: Lexend;
+  }
+  .new-todo-form button {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 100px;
+    right: 20px;
+    top: 8px;
+    font-family: Lexend;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-heading {
+    color: rgb(8, 8, 8);
+    margin: 0;
+  }
+  
+  #add-todo {
+    display: block;
+    margin: 0 auto;
+    background-color: #833AE0;
+    border-radius: 60px;
+    padding: 0px 20px 0px 0;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  #add-todo:hover {
+    opacity: 1;
+  }
+  #add-todo i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.221);
+  }
+  
+  .new-todo-form {
+    display: none;
+  }
+  
+  .new-todo-form.enabled {
+    display: flex;
+  }
+  
+  .app-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .app-heading {
+    color: black;
+    padding-left: 100px;
+    place-items: center;
+    text-transform: uppercase;
+  }
+  .todoApi {
+    cursor: move;
+  }
+  /*# sourceMappingURL=main.css.map */
+  
